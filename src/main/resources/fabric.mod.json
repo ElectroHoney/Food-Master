@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "foodmastermod",
+  "version": "${version}",
+
+  "name": "Food Master",
+  "description": "This should be the fabric version of an idea from 2016",
+  "authors": [
+    "ElectroHoney"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT",
+  "icon": "assets/foodmastermod/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.electrohoney.foodmastermod.FoodMaster"
+    ]
+  },
+  "mixins": [
+    "foodmastermod.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
