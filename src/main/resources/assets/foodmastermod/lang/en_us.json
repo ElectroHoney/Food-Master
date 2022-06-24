@@ -1,3 +1,6 @@
 {
-  "item.foodmastermod.food_item": "Food"
+  "item.foodmastermod.food_item": "Food",
+
+  "block.foodmastermod.test_block": "Test Block",
+  "block.foodmastermod.pot": "Pot"
 }
