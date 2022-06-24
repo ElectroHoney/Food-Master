@@ -1,0 +1,5 @@
+{
+  "variants":{
+    "": {"model": "foodmastermod:block/test_block"}
+  }
+}
