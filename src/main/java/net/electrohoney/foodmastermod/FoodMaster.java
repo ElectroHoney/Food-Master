@@ -1,5 +1,6 @@
 package net.electrohoney.foodmastermod;
 
+import net.electrohoney.foodmastermod.block.ModBlocks;
 import net.electrohoney.foodmastermod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
@@ -13,5 +14,6 @@ public class FoodMaster implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModBlocks.registerModBlock();
 	}
 }
